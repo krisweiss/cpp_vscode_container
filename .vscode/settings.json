@@ -1,0 +1,7 @@
+{
+  "editor.formatOnSave": true,
+  "clangd.arguments": [
+    "--compile-commands-dir=build"
+  ],
+  "clangd.path": "clangd"
+}
