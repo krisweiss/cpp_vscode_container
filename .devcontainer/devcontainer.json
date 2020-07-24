@@ -18,6 +18,7 @@
 		"ms-vscode.cmake-tools",
 		"llvm-vs-code-extensions.vscode-clangd",
 		"notskm.clang-tidy",
+		"xaver.clang-format",
 		"webfreak.debug",
 		"hbenl.vscode-test-explorer",
 		"matepek.vscode-catch2-test-adapter",

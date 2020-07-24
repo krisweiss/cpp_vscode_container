@@ -8,7 +8,11 @@ set(CMAKE_CXX_FLAGS "-Wall -Wextra -Werror -Wno-unused-parameter")
 set(CMAKE_CXX_FLAGS_DEBUG "-g")
 set(CMAKE_CXX_FLAGS_RELEASE "-O3")
 
-add_executable(new_project new_project/main.cpp)
+add_executable(new_project 
+    new_project/main.cpp 
+    new_project/hello.cpp 
+    new_project/hello.hpp
+     )
 
 find_package(Catch2 REQUIRED)
 add_executable(tests tests/unit_tests/main_test.cpp)
